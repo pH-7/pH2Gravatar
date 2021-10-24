@@ -1,6 +1,16 @@
 {
     "name": "ph-7/ph2gravatar",
     "description": "🎉 An easy and elegant way to generate gravatars 🖼",
+    "keywords": [
+        "gravatar",
+        "gravatar image",
+        "gravatar url",
+        "profile photo",
+        "profile image",
+        "avatar",
+        "profile",
+        "identicon"
+    ],
     "type": "library",
     "license": "MIT",
     "autoload": {
