@@ -25,14 +25,18 @@ require __DIR__ . '/vendor/autoload.php';
 use Ph7\PH2Gravatar\Gravatar\Image;
 ?>
 
+<!-- Here, we leave the default parameters. https://en.gravatar.com/site/implement/images/ -->
 <img src="<?php echo Image::get('me@test.email'); ?>" alt="My gravatar image" />
+
+
+<!-- Set gravatar image size to 400px -->
+<img src="<?php echo Image::get('me@test.email', ['size' => 400]); ?>" alt="My gravatar image" />
 ```
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
 use Ph7\PH2Gravatar\Gravatar;
-?>
 
 echo Gravatar::get('me@test.email', [
     'size' => 80,
