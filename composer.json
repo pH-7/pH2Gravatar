@@ -1,0 +1,29 @@
+{
+    "name": "ph-7/ph2gravatar",
+    "description": "A simple a elegant way to generate gravatars",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ph7\\PH2Gravatar\\": "src/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ph7\\PH2Gravatar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre-Henry Soria",
+            "email": "hi@ph7.me",
+            "homepage": "https://ph7.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
