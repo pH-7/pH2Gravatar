@@ -51,6 +51,10 @@ I'm **[Pierre-Henry Soria][author-url]**. A passionate,  zen &amp; dedicated sof
 
 [![@phenrysay][twitter-image]][twitter-url] [![pH-7][github-image]][github-url]
 
+---
+
+[![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria, Software Developer")
+
 ## 📃 License
 
 pH2Gravatar is distributed under MIT license 🚀 Enjoy!
