@@ -1,6 +1,6 @@
 {
     "name": "ph-7/ph2gravatar",
-    "description": "A simple a elegant way to generate gravatars",
+    "description": "🎉 An easy and elegant way to generate gravatars 🖼",
     "type": "library",
     "license": "MIT",
     "autoload": {
