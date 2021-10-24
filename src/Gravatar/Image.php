@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ph7\PH2Gravatar\Gravatar;
+namespace PH7\PH2Gravatar\Gravatar;
 
 final class Image
 {

@@ -7,9 +7,9 @@
 
 declare(strict_types=1);
 
-namespace Ph7\PH2Gravatar\Tests\Gravatar;
+namespace PH7\PH2Gravatar\Tests\Gravatar;
 
-use Ph7\PH2Gravatar\Gravatar\Image;
+use PH7\PH2Gravatar\Gravatar\Image;
 use PHPUnit\Framework\TestCase;
 
 class ImageTest extends TestCase

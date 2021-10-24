@@ -15,12 +15,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ph7\\PH2Gravatar\\": "src/"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Ph7\\PH2Gravatar\\": "src/"
+            "PH7\\PH2Gravatar\\": "src/"
         }
     },
     "authors": [

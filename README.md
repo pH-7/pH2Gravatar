@@ -22,7 +22,7 @@ composer require ph-7/ph2gravatar
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Ph7\PH2Gravatar\Gravatar\Image;
+use PH7\PH2Gravatar\Gravatar\Image;
 ?>
 
 <!-- Here, we leave the default parameters. https://en.gravatar.com/site/implement/images/ -->
@@ -36,7 +36,7 @@ use Ph7\PH2Gravatar\Gravatar\Image;
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Ph7\PH2Gravatar\Gravatar;
+use PH7\PH2Gravatar\Gravatar;
 
 echo Gravatar::get('me@test.email', [
     'size' => 80,
