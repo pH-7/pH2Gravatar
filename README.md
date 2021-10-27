@@ -19,6 +19,8 @@ composer require ph-7/ph2gravatar
 
 ## 💭 How to use it?
 
+### Example 1
+
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
@@ -33,6 +35,8 @@ use PH7\PH2Gravatar\Gravatar\Image;
 <!-- Here, we set the gravatar image size to 400px -->
 <img src="<?= Image::get('me@test.email', ['size' => 400]) ?>" alt="My gravatar image" />
 ```
+
+### Example 2
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
@@ -49,11 +53,11 @@ echo Gravatar::get('me@test.email', [
 
 ## 🪄 Author
 
-I'm **[Pierre-Henry Soria][author-url]**. A passionate,  zen &amp; dedicated software engineer 😊
+I'm **[Pierre-Henry Soria][author-url]**. A passionate, zen &amp; dedicated software engineer 😊
+
+You can keep in touch with me at *hi [[AT]] ph7 {{D0T}} me* 📮
 
 [![@phenrysay][twitter-image]][twitter-url] [![pH-7][github-image]][github-url]
-
----
 
 [![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria, Software Developer")
 
