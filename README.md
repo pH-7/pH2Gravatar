@@ -51,6 +51,20 @@ echo Gravatar::get('me@test.email', [
 ]);
 ```
 
+### Example 3
+
+```php
+use PH7\PH2Gravatar\Gravatar\Image as GravatarImage;
+
+$sImageUrl = GravatarImage::get($sEmail, [
+    'size' => $iSize,
+    'display' => '404',
+    'rating' => 'g'
+    ]
+);
+```
+
+
 ## 🪄 Author
 
 I'm **[Pierre-Henry Soria][author-url]**. A passionate, zen &amp; dedicated software engineer 😊
