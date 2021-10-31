@@ -1,6 +1,6 @@
 # pH2Gravatar
 
-## The simplest Gravatar PHP package
+## 🖼 The simplest Gravatar PHP package
 
 An easy and elegant way to generate gravatar profile photos from email addresses 🪄
 
