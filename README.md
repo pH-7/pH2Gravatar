@@ -6,7 +6,7 @@ An easy and elegant way to generate gravatar profile photos from email addresses
 
 ## ⛏ Requirements
 
-* [PHP 7.1](https://www.php.net/releases/7_1_0.php) or higher.
+* [PHP 7.1](https://www.php.net/releases/7_1_0.php), or higher! 🐘
 
 
 ## 🏗 How to install it?
