@@ -25,15 +25,6 @@ class ImageTest extends TestCase
         $this->assertSame($expected, $actual);
     }
 
-    public function testGravatarWithoutOptionsAndUppercaseEmail(): void
-    {
-        $upperCaseEmail = strtoupper(self::TEST_EMAIL);
-        $actual = Image::get($upperCaseEmail);
-        $expected = 'https://www.gravatar.com/avatar/' . self::TEST_EMAIL_HASH . '?s=200&r=g&d=mp';
-
-        $this->assertSame($expected, $actual);
-    }
-
     public function testGravatarWithOptions(): void
     {
         $upperCaseEmail = strtoupper(self::TEST_EMAIL);
@@ -43,6 +34,24 @@ class ImageTest extends TestCase
             'display' => 'retro'
         ]);
         $expected = 'https://www.gravatar.com/avatar/' . self::TEST_EMAIL_HASH . '?s=400&r=pg&d=retro';
+
+        $this->assertSame($expected, $actual);
+    }
+
+    public function testGravatarWithUppercaseEmail(): void
+    {
+        $upperCaseEmail = strtoupper(self::TEST_EMAIL);
+        $actual = Image::get($upperCaseEmail);
+        $expected = 'https://www.gravatar.com/avatar/' . self::TEST_EMAIL_HASH . '?s=200&r=g&d=mp';
+
+        $this->assertSame($expected, $actual);
+    }
+
+    public function testGravatarWithSpaceInEmail(): void
+    {
+        $extraSpacesInEmail = ' ' . self::TEST_EMAIL . ' ';
+        $actual = Image::get($extraSpacesInEmail);
+        $expected = 'https://www.gravatar.com/avatar/' . self::TEST_EMAIL_HASH . '?s=200&r=g&d=mp';
 
         $this->assertSame($expected, $actual);
     }

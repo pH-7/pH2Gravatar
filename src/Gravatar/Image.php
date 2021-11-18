@@ -25,12 +25,17 @@ final class Image
 
     private static function getEmailHash(string $email): string
     {
-        return md5(strtolower($email));
+        return md5(self::sanitize($email));
     }
 
     private static function buildUrl(string $url, string $params): string
     {
         return $url . '?' . $params;
+    }
+
+    private static function sanitize(string $value): string
+    {
+        return strtolower(trim($value));
     }
 
     private static function buildOptions(array $options): string
