@@ -47,7 +47,7 @@ class ImageTest extends TestCase
         $this->assertSame($expected, $actual);
     }
 
-    public function testGravatarWithSpaceInEmail(): void
+    public function testGravatarWithSpacesInEmail(): void
     {
         $extraSpacesInEmail = ' ' . self::TEST_EMAIL . ' ';
         $actual = Image::get($extraSpacesInEmail);
