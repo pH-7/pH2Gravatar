@@ -2,7 +2,7 @@
 
 ## 🖼 The simplest Gravatar PHP package
 
-An easy and elegant way to generate gravatar profile photos from email addresses 🪄
+A lightweight, easy and elegant way to generate gravatar profile photos from email addresses 🪄
 
 ## ⛏ Requirements
 
