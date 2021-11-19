@@ -41,7 +41,7 @@ use PH7\PH2Gravatar\Gravatar\Image;
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use PH7\PH2Gravatar\Gravatar;
+use PH7\PH2Gravatar\Gravatar\Image as Gravatar;
 
 // Show the gravatar image link
 echo Gravatar::get('me@test.email', [
@@ -49,19 +49,28 @@ echo Gravatar::get('me@test.email', [
     'rating' => 'pg',
     'display' => 'retro'
 ]);
+// https://www.gravatar.com/avatar/9c47a7bb2aec6e61df372a8f8446ed9d?s=80&r=pg&d=retro
 ```
 
 ### Example 3
 
 ```php
+require __DIR__ . '/vendor/autoload.php';
+
 use PH7\PH2Gravatar\Gravatar\Image as GravatarImage;
 
-$sImageUrl = GravatarImage::get($sEmail, [
-    'size' => $iSize,
+$email = 'me@myemail.com';
+$size = 400;
+
+$imageUrl = GravatarImage::get($email, [
+    'size' => $size,
     'display' => '404',
     'rating' => 'g'
     ]
 );
+
+// $imageUrl output
+// https://www.gravatar.com/avatar/4995f3f0b59f4abfda86e74f92896f3b?s=400&r=g&d=404
 ```
 
 
