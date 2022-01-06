@@ -7,12 +7,12 @@
 
 declare(strict_types=1);
 
-namespace PH7\PH2Gravatar\Tests\Gravatar;
+namespace PH7\PH2Gravatar\Tests;
 
-use PH7\PH2Gravatar\Gravatar\Image;
+use PH7\PH2Gravatar\Image;
 use PHPUnit\Framework\TestCase;
 
-class ImageTest extends TestCase
+final class ImageTest extends TestCase
 {
     private const TEST_EMAIL = 'test@ph7.me';
     private const TEST_EMAIL_HASH = '25b846cb8825d0854bd7a24792f8945a';

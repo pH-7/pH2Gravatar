@@ -24,7 +24,7 @@ composer require ph-7/ph2gravatar
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use PH7\PH2Gravatar\Gravatar\Image;
+use PH7\PH2Gravatar\Image;
 ?>
 
 <!-- Here, we leave the default parameters. https://en.gravatar.com/site/implement/images/ -->
@@ -41,7 +41,7 @@ use PH7\PH2Gravatar\Gravatar\Image;
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use PH7\PH2Gravatar\Gravatar\Image as Gravatar;
+use PH7\PH2Gravatar\Image as Gravatar;
 
 // Show the gravatar image link
 echo Gravatar::get('me@test.email', [
@@ -57,7 +57,7 @@ echo Gravatar::get('me@test.email', [
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use PH7\PH2Gravatar\Gravatar\Image as GravatarImage;
+use PH7\PH2Gravatar\Image as GravatarImage;
 
 $email = 'me@myemail.com';
 $size = 400;
@@ -86,7 +86,7 @@ You can keep in touch with me at *hi [[AT]] ph7 {{D0T}} me* 📮
 
 ## 📃 License
 
-pH2Gravatar is distributed under MIT license 🚀 Enjoy!
+**pH2Gravatar** is distributed under MIT license 🚀 Enjoy!
 
 <!-- GitHub's Markdown reference links -->
 [author-url]: https://pierrehenry.be
