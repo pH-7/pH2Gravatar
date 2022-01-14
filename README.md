@@ -6,16 +6,15 @@ A lightweight, easy and elegant way to generate gravatar profile photos from ema
 
 ## ⛏ Requirements
 
-* [PHP 7.1](https://www.php.net/releases/7_1_0.php), or higher! 🐘
-
+- [PHP 7.3](https://www.php.net/releases/7_3_0.php), or higher! 🐘
 
 ## 🏗 How to install it?
 
 With composer,
+
 ```bash
 composer require ph-7/ph2gravatar
 ```
-
 
 ## 💭 How to use it?
 
@@ -73,22 +72,22 @@ $imageUrl = GravatarImage::get($email, [
 // https://www.gravatar.com/avatar/4995f3f0b59f4abfda86e74f92896f3b?s=400&r=g&d=404
 ```
 
-
 ## 🪄 Author
 
-I'm **[Pierre-Henry Soria][author-url]**. A passionate, zen &amp; dedicated software engineer 😊
+I'm **[Pierre-Henry Soria][author-url]**. A dedicated, passionate and positive software engineer 😊
 
-You can keep in touch with me at *hi [[AT]] ph7 {{D0T}} me* 📮
+You can keep in touch with me at _hi [[AT]] ph7 {{D0T}} me_ 📮
 
 [![@phenrysay][twitter-image]][twitter-url] [![pH-7][github-image]][github-url]
 
-[![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria, Software Developer")
+[![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me 'Pierre-Henry Soria, Software Developer')
 
 ## 📃 License
 
 **pH2Gravatar** is distributed under MIT license 🚀 Enjoy!
 
 <!-- GitHub's Markdown reference links -->
+
 [author-url]: https://pierrehenry.be
 [license-url]: https://opensource.org/licenses/MIT
 [twitter-url]: https://twitter.com/phenrysay
