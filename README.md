@@ -2,7 +2,9 @@
 
 ## 🖼 The simplest Gravatar PHP package
 
-A lightweight, easy and elegant way to generate gravatar profile photos from email addresses 🪄
+*Easy as it's supposed to be 💪*
+
+**pH2Gravatar** is lightweight gravatar library giving you an elegant way to generate gravatar profile photos from email addresses 🪄
 
 ## ⛏ Requirements
 
@@ -10,7 +12,7 @@ A lightweight, easy and elegant way to generate gravatar profile photos from ema
 
 ## 🏗 How to install it?
 
-With composer,
+With composer:
 
 ```bash
 composer require ph-7/ph2gravatar
