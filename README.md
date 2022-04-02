@@ -4,11 +4,15 @@
 
 *Easy as it's supposed to be 💪*
 
+[![Ko Fi - Offer Me A Coffee](media/kofi-logo.png)](https://ko-fi.com/phenry)
+
 **pH2Gravatar** is lightweight gravatar library giving you an elegant way to generate gravatar profile photos from email addresses 🪄
+
 
 ## ⛏ Requirements
 
 - [PHP 7.3](https://www.php.net/releases/7_3_0.php), or higher! 🐘
+
 
 ## 🏗 How to install it?
 
@@ -17,6 +21,7 @@ With composer:
 ```bash
 composer require ph-7/ph2gravatar
 ```
+
 
 ## 💭 How to use it?
 
@@ -74,6 +79,7 @@ $imageUrl = GravatarImage::get($email, [
 // https://www.gravatar.com/avatar/4995f3f0b59f4abfda86e74f92896f3b?s=400&r=g&d=404
 ```
 
+
 ## 🪄 Author
 
 I'm **[Pierre-Henry Soria][author-url]**. A dedicated, passionate and positive software engineer 😊
@@ -82,7 +88,10 @@ You can keep in touch with me at _hi [[AT]] ph7 {{D0T}} me_ 📮
 
 [![@phenrysay][twitter-image]][twitter-url] [![pH-7][github-image]][github-url]
 
+️Would like to help? **[Offer me a coffee](https://ko-fi.com/phenry)** and boost the software development at the same time! 💪
+
 [![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me 'Pierre-Henry Soria, Software Developer')
+
 
 ## 📃 License
 

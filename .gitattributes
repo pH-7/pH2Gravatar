@@ -1,5 +1,6 @@
 # Exclude the dev/testing files from release builds
 tests export-ignore
+media export-ignore
 .github export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore
