@@ -2,9 +2,9 @@
 
 ## 🖼 The simplest Gravatar PHP package
 
-*Easy as it's supposed to be 💪*
+_Easy as it's supposed to be 💪_
 
-[![Ko Fi - Offer Me A Coffee](media/kofi-logo.png)](https://ko-fi.com/phenry)
+[![Ko Fi - Offer Me A Coffee](media/kofi-logo.png)](https://ko-fi.com/phenry "Buy me a coffee")
 
 **pH2Gravatar** is lightweight gravatar library giving you an elegant way to generate gravatar profile photos from email addresses 🪄
 
@@ -82,13 +82,11 @@ $imageUrl = GravatarImage::get($email, [
 
 ## 🪄 Author
 
-I'm **[Pierre-Henry Soria][author-url]**. A dedicated, passionate and positive software engineer 😊
-
-You can keep in touch with me at _hi [[AT]] ph7 {{D0T}} me_ 📮
+I'm **[Pierre-Henry Soria][author-url]**. A dedicated, passionate and positive software engineer 😊 You can keep in touch with me at _hi [[AT]] ph7 {{D0T}} me_ 📮
 
 [![@phenrysay][twitter-image]][twitter-url] [![pH-7][github-image]][github-url]
 
-️Would like to help? **[Offer me a coffee](https://ko-fi.com/phenry)** and boost the software development at the same time! 💪
+Are you enjoying my work? **[Offer me a coffee](https://ko-fi.com/phenry)** and boost the software development at the same time! 💪
 
 [![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me 'Pierre-Henry Soria, Software Developer')
 
@@ -97,8 +95,8 @@ You can keep in touch with me at _hi [[AT]] ph7 {{D0T}} me_ 📮
 
 **pH2Gravatar** is distributed under MIT license 🚀 Enjoy!
 
-<!-- GitHub's Markdown reference links -->
 
+<!-- GitHub's Markdown reference links -->
 [author-url]: https://pierrehenry.be
 [license-url]: https://opensource.org/licenses/MIT
 [twitter-url]: https://twitter.com/phenrysay
