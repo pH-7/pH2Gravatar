@@ -117,4 +117,4 @@ Are you enjoying my work? **[Offer me a coffee](https://ko-fi.com/phenry)** and 
 [twitter-image]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
 [github-url]: https://github.com/pH-7
 [github-image]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[video-thumbnail]: https://i1.ytimg.com/vi/DeGYaRkStaE/sddefault.jpg
+[video-thumbnail]: https://i1.ytimg.com/vi/DeGYaRkStaE/hqdefault.jpg
