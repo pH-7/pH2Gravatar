@@ -91,9 +91,16 @@ Are you enjoying my work? **[Offer me a coffee](https://ko-fi.com/phenry)** and 
 [![Pierre-Henry Soria](https://gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me 'Pierre-Henry Soria, Software Developer')
 
 
+## 📺 Watch me building it!
+
+[![Watch the video][video-thumbnail]](https://www.youtube.com/watch?v=DeGYaRkStaE)
+
+👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=DeGYaRkStaE)**
+
+
 ## 📃 License
 
-**pH2Gravatar** is distributed under MIT license 🚀 Enjoy!
+**pH2Gravatar** is distributed under [MIT][license-url] license 🚀 Enjoy!
 
 
 <!-- GitHub's Markdown reference links -->
@@ -103,3 +110,4 @@ Are you enjoying my work? **[Offer me a coffee](https://ko-fi.com/phenry)** and 
 [twitter-image]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
 [github-url]: https://github.com/pH-7
 [github-image]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[video-thumbnail]: https://i1.ytimg.com/vi/fK9K-UrLHNE/sddefault.jpg
