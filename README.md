@@ -9,6 +9,13 @@ _Easy as it's supposed to be 💪_
 **pH2Gravatar** is lightweight gravatar library giving you an elegant way to generate gravatar profile photos from email addresses 🪄
 
 
+- [Requirements](#-requirements)
+- [How to install it?](#-how-to-install-it)
+- [How to use it?](#-how-to-use-it)
+- [Who wrote this?](#-author)
+- [Watch how to build this](#-watch-me-building-it)
+
+
 ## ⛏ Requirements
 
 - [PHP 7.3](https://www.php.net/releases/7_3_0.php), or higher! 🐘
