@@ -12,8 +12,8 @@ _Easy as it's supposed to be 💪_
 - [Requirements](#-requirements)
 - [How to install it?](#-how-to-install-it)
 - [How to use it?](#-how-to-use-it)
-- [Who wrote this?](#-author)
-- [Watch how to build this](#-watch-me-building-it)
+- [Who wrote it?](#-author)
+- [How to build this library - Full Video Course](#-watch-me-building-it)
 
 
 ## ⛏ Requirements
